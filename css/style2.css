@@ -1,0 +1,96 @@
+html[data-font=dyslexia] * {
+    font-family: opendyslexicregular, serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: "opendyslexicregular";
+    src: url("../fonts/opendyslexic-regular-webfont.woff2") format("woff2"), url("../fonts/opendyslexic-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opendyslexicbold";
+    src: url("../fonts/opendyslexic-bold-webfont.woff2") format("woff2"), url("../fonts/opendyslexic-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-bar {
+    background-color: #17323f; 
+    /*background-color: #ECF4F7;*/
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    line-height: 1;
+}
+
+.top-bar>.__col {
+    flex: 0 1 auto;
+    border-right: 1px solid #5ac8fa;
+    padding: 0 1em;
+}
+
+.top-bar>.__col:last-child {
+    border-right: 0;
+}
+
+.top-bar>.__col._font-sizes button.active {
+        color: #17323f;
+    background-color: #fff; 
+    /* color: #fff;
+    background-color: #17323f;*/
+    border-radius: 0.25em;
+    padding: 0 0.5em;
+}
+
+.top-bar>.__col._dyslexia button {
+    padding: 0 0.5em;
+}
+
+.top-bar>.__col._dyslexia button.active {
+    color: #17323f;
+    background-color: #fff; 
+    /* color: #fff;
+    background-color: #17323f;*/
+    border-radius: 0.25em;
+}
+
+.top-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar ul li {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.top-bar button {
+    color: #fff; 
+    /*color: #17323F;*/
+    text-decoration: none;
+    transition: none;
+}
+
+.top-bar button:hover {
+    text-decoration: underline;
+}
+
+.top-bar button:focus {
+    text-decoration: underline;
+}
+
+
+
+/*# sourceMappingURL=style2.css.map */

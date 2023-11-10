@@ -1,0 +1,24 @@
+body {font-family: Serif; font-size: 15pt; background: none; color: black; page-break-before: always;}
+/*Cacher l'inutile*/
+.footfooter button{}
+#backtotop,#confort,#sidebar,.fermer,.menu,.contenumodale,.grid-rss, iframe,.c-dialog,footer img,.menubouton,#header,form,.sr-only,.sr-only-focusable,.outils,#footer,.footfooter,svg {display: none;}
+/*Decorum titrage*/
+.logo {width:33%;margin:0% 33%;}
+.sstitre{font-size:25pt;}
+/*Exergue*/
+.exergue{margin-left: 30pt;}
+/* Tableaux */
+.tableau, th, td {border-collapse: collapse; border: 2pt solid #000000;padding:10pt;}
+.tableau{width:100%}
+caption{font-size:20pt; margin-top: 30pt;margin-bottom: 10pt;}
+/* Affichage URL après liens mais pas mails ni tel */
+a{color:black;text-decoration: none;}
+a:after {content: " (" attr(href) ") "; text-decoration: underline;}
+a[href^="tel:"]:after {content: none;}
+a[href^="mailto:"]:after {content: none;}
+/*accordeon*/
+.Accordeon-panel[hidden] {display: block;}
+h3 button{border:none; font-size:19pt;font-weight: bold;font-family: Serif;text-align: left;;}
+/*Images pas trop grandes en logos*/
+.bloclogos img{max-width:200px}
+img {max-width:600pt;margin:20pt;}
